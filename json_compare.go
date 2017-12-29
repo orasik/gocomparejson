@@ -8,8 +8,8 @@ import (
 // CompareJSON will check if two json strings are equal
 func CompareJSON(json1, json2 string) (bool, error) {
 
-	var jsonVal1 map[string]interface{}
-	var jsonVal2 map[string]interface{}
+	var jsonVal1 interface{}
+	var jsonVal2 interface{}
 
 	err1 := json.Unmarshal([]byte(json1), &jsonVal1)
 

@@ -1,3 +1,6 @@
+[![Go Report Card](https://goreportcard.com/badge/github.com/orasik/gocomparejson)](https://goreportcard.com/report/github.com/orasik/gocomparejson)
+[![Build Status](https://travis-ci.org/orasik/gocomparejson.svg?branch=master)](https://travis-ci.org/orasik/gocomparejson)
+
 # ComapreJSON
 
 Compare two json strings in go lang

@@ -21,19 +21,21 @@ go get github.com/orasik/gocomparejson
 package main
 
 import (
-    "fmt"
-    "github.com/orasik/gojsoncompare"
+	"fmt"
+	jsonutil "github.com/orasik/gocomparejson"
 )
 
-json1 := []byte(`{"hello":"world"}`)
-json2 := []byte(`{
+func main() {
+	json1 := []byte(`{"hello":"world"}`)
+	json2 := []byte(`{
 "hello":"world"
 }`)
 
-val, err := CompareJSON(string(json1), string(json2))
+	val, err := jsonutil.CompareJSON(string(json1), string(json2))
 
-fmt.Print(val)
-fmt.Print(err)
+	fmt.Print(val)
+	fmt.Print(err)
+}
 ```
 
 ### Unit test

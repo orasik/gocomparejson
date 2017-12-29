@@ -1,5 +1,6 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/orasik/gocomparejson)](https://goreportcard.com/report/github.com/orasik/gocomparejson)
 [![Build Status](https://travis-ci.org/orasik/gocomparejson.svg?branch=master)](https://travis-ci.org/orasik/gocomparejson)
+[![codecov](https://codecov.io/gh/orasik/gocomparejson/branch/master/graph/badge.svg)](https://codecov.io/gh/orasik/gocomparejson)
 
 # ComapreJSON
 
